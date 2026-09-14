@@ -76,21 +76,7 @@ export const apIsDescription: INodeProperties[] = [
 			"displayName": "Consent Artifact",
 			"name": "consentArtifact",
 			"type": "string",
-			"default": {
-				"consent": {
-					"consentId": "ea9c43aa-7f5a-4bf3-a0be-e1caa24737ba",
-					"data": {},
-					"dataConsumer": {},
-					"dataProvider": {},
-					"permission": {
-						"dateRange": {},
-						"frequency": {}
-					},
-					"purpose": {},
-					"user": {}
-				},
-				"signature": {}
-			},
+			"default": "{\"consent\":{\"consentId\":\"ea9c43aa-7f5a-4bf3-a0be-e1caa24737ba\",\"data\":{},\"dataConsumer\":{},\"dataProvider\":{},\"permission\":{\"dateRange\":{},\"frequency\":{}},\"purpose\":{},\"user\":{}},\"signature\":{}}",
 			"routing": {
 				"send": {
 					"property": "consentArtifact",
